@@ -20,7 +20,7 @@ Este agente debe escribir en stdout cada vez que se modifica el stock de un prod
 
  Prodcto: xbox one s -> 10 unidades disponibles
 
-##### AGENTE
+##### AGENTE ADVERTENCIA
 
 Este agente debe escribir en stdout cada vez que el stock de un producto es menor a 5. Ejemplo:
 
