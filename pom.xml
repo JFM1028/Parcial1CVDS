@@ -33,12 +33,6 @@
         </developer>
     </developers>
     
-    <scm>
-        <connection>scm:git:git://github.com/your-repo.git</connection>
-        <developerConnection>scm:git:ssh://github.com:your-repo.git</developerConnection>
-        <url>http://github.com/your-repo</url>
-    </scm>
-    
     <properties>
         <java.version>22</java.version>
     </properties>

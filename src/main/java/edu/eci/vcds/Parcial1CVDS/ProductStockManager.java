@@ -13,19 +13,16 @@ public class ProductStockManager {
     observers.add(observer);
   }
 
-  // Método para notificar a todos los observadores
   private void notifyObservers(String productName, int newQuantity) {
     for (StockObserver observer : observers) {
       observer.update(productName, newQuantity);
     }
   }
 
-  // Método para agregar un producto
   public void addProduct(Product product) {
     products.add(product);
   }
 
-  // Método para modificar el stock de un producto
   public void updateProductStock(String productName, int newQuantity) {
     for (Product product : products) {
       if (product.getName().equals(productName)) {

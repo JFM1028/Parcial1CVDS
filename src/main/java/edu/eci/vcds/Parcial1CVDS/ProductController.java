@@ -19,8 +19,6 @@ public class ProductController {
   @Autowired
   public ProductController(ProductStockManager productStockManager) {
     this.productStockManager = productStockManager;
-
-    // Suscribir a los agentes
     productStockManager.addObserver(new AgentLog());
     productStockManager.addObserver(new AgentWarning());
   }
